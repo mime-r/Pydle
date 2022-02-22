@@ -108,7 +108,7 @@ l
                 print("Error accessing the Wordle API. Please try again later.")
                 exit(-1)
             elif validate_code == False or validate_code == -2:
-                print("W is not valid. Please try again.")
+                print("Word is not valid. Please try again.")
                 continue
 
             # Check word - KIND OF UNECESSARY LMAO
